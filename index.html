@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page settings -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uttar Unlocked | Explore Uttar Pradesh</title>
+  <meta name="description" content="Discover the beauty, heritage, food and experiences of Uttar Pradesh." />
+
+  <!-- Google font (internet connection needed for this font) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Connect our CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Uttar Unlocked home">
+      <span class="brand-mark">✦</span>
+      <span>Uttar <b>Unlocked</b><small>EXPLORE · EXPERIENCE · DISCOVER</small></span>
+    </a>
+
+    <!-- Mobile menu button; JavaScript opens/closes the menu -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Home</a>
+      <a href="#places">Places</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#food">Food</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-book" href="#plan">✈ Book Trip</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">EXPLORE THE BEAUTY OF UTTAR PRADESH</p>
+        <h1>Discover Uttar Pradesh <span>Like Never Before.</span></h1>
+        <p class="hero-description">Explore famous places, enjoy local food, discover culture and make unforgettable memories.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#places">Explore Places <span>→</span></a>
+          <a class="button button-outline" href="#gallery">View Gallery</a>
+        </div>
+        <div class="hero-points">
+          <span>✓ Curated destinations</span><span>✓ Local experiences</span><span>✓ Travel inspiration</span>
+        </div>
+      </div>
+
+      <!-- Hero image: replace URL with your own image any time -->
+      <div class="hero-image-wrap">
+        <img class="hero-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kashi%20Vishwanath%20Temple%20in%20Varanasi.jpg?width=1600" alt="Varanasi riverfront at sunset" />
+        <div class="hero-image-caption"><span class="pin">●</span><div><b>Kashi, Varanasi</b><small>Spiritual heart of India</small></div><a href="#plan">Plan a trip →</a></div>
+      </div>
+    </section>
+
+    <!-- ========== DESTINATION CARDS ========== -->
+    <section class="section" id="places">
+      <div class="section-heading">
+        <p class="eyebrow">YOUR NEXT ADVENTURE</p>
+        <h2>Explore Famous Destinations</h2>
+        <p>From sacred rivers to royal architecture, discover places worth remembering.</p>
+      </div>
+      <div class="card-grid destination-grid">
+        <article class="destination-card">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kashi%20Vishwanath%20Temple%20in%20Varanasi.jpg?width=1000" alt="Kashi Vishwanath Temple, Varanasi" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 Spiritual City</span><h3>Varanasi</h3><p>Sunrise boats, timeless ghats and the Ganga.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="https://www.hindustantimes.com/ht-img/img/2025/04/08/original/PTI01-23-2025-000455A-0_1744082899398.jpg" alt="Ayodhya Ram Mandir" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 Land of devotion</span><h3>Ayodhya</h3><p>A city of stories, faith and heritage.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80" alt="Taj Mahal in Agra" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 City of monuments</span><h3>Agra</h3><p>Iconic architecture and Mughal history.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="https://s7ap1.scene7.com/is/image/incredibleindia/bara-imambara-lucknow-uttar-pradesh-attr-about?qlt=82&ts=1742165049345" alt="Bara Imambara, Lucknow" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 Nawabi heritage</span><h3>Lucknow</h3><p>Graceful architecture, culture and cuisine.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="https://akm-img-a-in.tosshub.com/lingo/uptak/images/story/202505/6825fa20da30d-banke-bihari-temple-152843567-16x9.png" alt="Banke Bihari Temple, Mathura Vrindavan" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 Birthplace of Krishna</span><h3>Mathura</h3><p>Temple trails and vibrant traditions.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="images/Prayagra.jpg" alt="Triveni Sangam, Prayagraj" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 River confluence</span><h3>Prayagraj</h3><p>Where rivers, history and culture meet.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <!-- Extra destination cards: Sarnath and Chitrakoot -->
+        <article class="destination-card">
+          <img src="images/sarnath.jpg" alt="Sarnath Buddhist heritage" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 Buddhist Heritage</span><h3>Sarnath</h3><p>Ancient stupas, museums and peaceful heritage sites.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="images/chitrakoot.jpg" alt="Chitrakoot nature landscape" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 Nature & Spirituality</span><h3>Chitrakoot</h3><p>Scenic riverbanks, hills and sacred traditions.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+        <article class="destination-card">
+          <img src="images/JK_Temple.jpg" alt="Chitrakoot nature landscape" loading="lazy" />
+          <div class="card-body"><span class="card-location">📍 The Leather City</span><h3>Kanpur</h3><p>A vibrant city of history, riverside charm and rich cultural heritage.</p><a href="#plan" class="text-link">Explore →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCES ========== -->
+    <section class="section experiences-section" id="experiences">
+      <div class="section-heading">
+        <p class="eyebrow">MAKE IT MEMORABLE</p><h2>Unforgettable Experiences</h2>
+        <p>Choose the kind of journey you want to remember.</p>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-item"><span class="experience-icon">🛕</span><h3>Spiritual Journeys</h3><p>Temple visits and sacred places</p></article>
+        <article class="experience-item"><span class="experience-icon">🍴</span><h3>Food Trails</h3><p>Local flavours and street food</p></article>
+        <article class="experience-item"><span class="experience-icon">🏛️</span><h3>Heritage & Culture</h3><p>Architecture, art and history</p></article>
+        <article class="experience-item"><span class="experience-icon">🛶</span><h3>Boat Rides</h3><p>See the river from a new view</p></article>
+        <article class="experience-item"><span class="experience-icon">🎉</span><h3>Festivals</h3><p>Colourful celebrations and events</p></article>
+        <article class="experience-item"><span class="experience-icon">🌳</span><h3>Nature Escapes</h3><p>Quiet moments outdoors</p></article>
+      </div>
+    </section>
+
+    <!-- ========== FOOD ========== -->
+    <section class="section" id="food">
+      <div class="section-heading section-heading-row">
+        <div><p class="eyebrow">LOCAL FLAVOURS</p><h2>Taste the Flavours of Uttar Pradesh</h2><p>Discover dishes and sweets loved across the state.</p></div>
+        <a class="button button-outline" href="#gallery">Explore Food →</a>
+      </div>
+      <div class="card-grid food-grid">
+        <article class="food-card"><img src="images/Galouti Kebab.jpg" alt="Indian kebabs" /><h3>Galouti Kebab</h3><p>Lucknow</p></article>
+        <article class="food-card"><img src="images/chatta.jpg" alt="Indian chaat" /><h3>Tamatar Chaat</h3><p>Varanasi</p></article>
+        <article class="food-card"><img src="images/Agra Petha.jpg" alt="Indian sweets" /><h3>Agra Petha</h3><p>Agra</p></article>
+        <article class="food-card"><img src="images/Mathura Peda.jpg" alt="Indian peda sweets" /><h3>Mathura Peda</h3><p>Mathura</p></article>
+        <article class="food-card"><img src="images/malaiyyo2.jpg.png" alt="Malai dessert" /><h3>Malaiyyo</h3><p>Varanasi</p></article>
+        <article class="food-card"><img src="images/laddo.jpg" alt="Laddu sweets" /><h3>Thaggu Ke Laddu</h3><p>Kanpur</p></article>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading"><p class="eyebrow">CAPTURE THE MOMENT</p><h2>Our Gallery</h2><p>A glimpse of the places, colours and memories waiting for you.</p></div>
+      <div class="gallery-grid">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kashi%20Vishwanath%20Temple%20in%20Varanasi.jpg?width=1200" alt="Varanasi river view" />
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=85" alt="Taj Mahal" />
+        <img src="https://www.hindustantimes.com/ht-img/img/2025/04/08/original/PTI01-23-2025-000455A-0_1744082899398.jpg" alt="Temple architecture" />
+        <img src="https://s7ap1.scene7.com/is/image/incredibleindia/bara-imambara-lucknow-uttar-pradesh-attr-about?qlt=82&ts=1742165049345" alt="Lucknow heritage" />
+        <img src="https://akm-img-a-in.tosshub.com/lingo/uptak/images/story/202505/6825fa20da30d-banke-bihari-temple-152843567-16x9.png" alt="Mathura travel" />
+        <img src="images/river.jpg" alt="River scenery" />
+      </div>
+      <!-- Photo note: images/kashi.jpg is a local optional image; replace with a downloaded, licensed photo. -->
+    </section>
+
+    <!-- ========== TRIP PLANNER ========== -->
+    <section class="section" id="plan">
+      <div class="trip-panel">
+        <div class="trip-intro"><p class="eyebrow">LET'S PLAN</p><h2>Plan Your Trip</h2><p>Choose a destination and share your travel details. This demo form will show a confirmation on this page.</p></div>
+        <form id="tripForm" class="trip-form">
+          <label>Destination
+            <select name="destination" required>
+              <option value="">Select destination</option><option>Varanasi</option><option>Ayodhya</option><option>Agra</option><option>Lucknow</option><option>Mathura</option><option>Prayagraj</option><option>Sarnath</option><option>Chitrakoot</option>
+            </select>
+          </label>
+          <label>Travel date<input name="date" type="date" required /></label>
+          <label>Travellers<select name="travellers" required><option value="">Number of people</option><option>1</option><option>2</option><option>3–4</option><option>5+</option></select></label>
+          <button class="button button-gold" type="submit">Plan Now →</button>
+        </form>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIAL ========== -->
+    <section class="section testimonial-section">
+      <div class="section-heading"><p class="eyebrow">TRAVELLER STORIES</p><h2>What Visitors Say</h2></div>
+      <blockquote class="testimonial"><span class="quote-mark">“</span><p>Uttar Pradesh is full of beautiful places, welcoming people and memorable food. Every stop felt different.</p><footer>— A traveller's story</footer></blockquote>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-grid">
+      <div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark">✦</span><span>Uttar <b>Unlocked</b><small>EXPLORE · EXPERIENCE · DISCOVER</small></span></a><p>Discover the beauty, culture and flavours of Uttar Pradesh.</p></div>
+      <div><h3>Quick Links</h3><a href="#top">Home</a><a href="#places">Places</a><a href="#experiences">Experiences</a><a href="#gallery">Gallery</a></div>
+      <div><h3>Top Destinations</h3><a href="#places">Varanasi</a><a href="#places">Ayodhya</a><a href="#places">Agra</a><a href="#places">Lucknow</a></div>
+      <div><h3>Contact</h3><p>📍 Uttar Pradesh, India</p><p>✉️ hello@uttarunlocked.example</p></div>
+      <div><h3>Travel Updates</h3><p>Get travel inspiration and updates.</p><form id="newsletterForm" class="newsletter"><input type="email" placeholder="Your email address" aria-label="Your email address" required /><button type="submit">Subscribe</button></form><p class="form-message" id="newsletterMessage" role="status"></p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Uttar Unlocked. Demo website.</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <!-- Connect our JavaScript file (keep this near the end of body) -->
+  <script src="script.js"></script>
+</body>
+</html>
